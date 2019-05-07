@@ -35,10 +35,10 @@ export default new Router({
       name:'reportIndex',
       component:reportIndex
     },
-    // {
-    //   path:'/reportList',
-    //   name:'reportList',
-    //   component:reportList
-    // }
+    {
+      path: '/setting',
+      name: 'setting',
+      component: () => import('./views/setting.vue')
+    },
   ]
 })
